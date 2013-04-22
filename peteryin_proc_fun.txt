@@ -1,0 +1,14 @@
+1. In /proc/version
+Linux version 3.5.0-17-generic (buildd@roseapple) (gcc version 4.7.2 (Ubuntu/Linaro 4.7.2-2ubuntu1) ) #28-Ubuntu SMP Tue Oct 9 19:32:08 UTC 2012
+2. /proc/filesystems 
+I have paritions configured with ext3 mounted
+3. Swap Space found in /proc/swaps is 522236 
+4. On Eniacs /proc/6150/cmdline command run to initiate ssh into Eniac is :
+   sshd: peteryin@pts/29
+5. in /proc/4677/cmdline , the command run to open firefox is:
+   /usr/lib/firefox/firefox
+6. in /proc/cpuinfo 
+   Speed of processor 0 is 2201.975 MHz
+
+
+
