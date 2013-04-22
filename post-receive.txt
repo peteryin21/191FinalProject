@@ -1,0 +1,13 @@
+#!/bin/sh                                                                       
+rm -rf ~/finalproject/files
+git clone ~/finalproject ~/finalproject/files
+rm -rf ~/finalproject/files/.git
+
+cd ~/finalproject/files
+sudo pkill python
+nohup sudo python -m SimpleHTTPServer 80 &
+
+
+
+
+
