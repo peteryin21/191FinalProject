@@ -1,0 +1,4 @@
+#!/bin/sh                                                                      #removes existing files directory and rewrites it with clone of final project d#irectory, then removes useless .git file created each time git clones 
+rm -rf ~/finalproject/files
+git clone ~/finalproject ~/finalproject/files
+rm -rf ~/finalproject/files/.git
